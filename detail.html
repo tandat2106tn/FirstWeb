@@ -1,0 +1,224 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="detailStyle.css">
+    <link rel="icon" type="image/x-icon" href="image/logo.png">
+    <title>Details</title>
+
+
+</head>
+<body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark pt-0 pb-0 mynav">
+        <div class="container-fluid lg-col align-items-center">
+          <a class="navbar-brand py-0" href="javascript:void(0)"><img src="image/logo.png" class="logo" alt=""></a>
+          <div class="d-md-block d-none">
+            <button type="button" class="btn btn-success text-light me-2"><i class="fa fa-user"></i><strong> | Login</strong></button>
+            <button type="button" class="btn btn-primary text-light me-2"><i class="fa fa-user-plus"></i><strong> | Đăng ký</strong></button>
+            <button type="button" class="btn btn-warning text-light"><i class="fa fa-phone"></i><strong> | Liên Hệ</strong></button>
+          </div>
+          <div class="dropdown ms-auto d-md-none">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="dropdown-menu dropdown-menu-end bg-secondary">
+              <button type="button" class="dropdown-item btn bg-secondary text-light"><i class="fa fa-user"></i><strong> | Login</strong></button>
+              <button type="button" class="dropdown-item btn bg-secondary text-light"><i class="fa fa-user-plus"></i><strong> | Đăng ký</strong></button>
+              <button type="button" class="dropdown-item btn bg-secondary text-light"><i class="fa fa-phone"></i><strong> | Liên Hệ</strong></button>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+
+    </header>
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-8">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="image/dt1.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="image/dt2.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="image/dt3.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="image/dt4.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="image/dt5.webp" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="col-md-4 info" id="info">
+          <h2>NEW BALANCE</h2>
+          <h3>Men's U327WVA</h3>
+          <h4>$120</h4>
+          <p class="my-0">Upper: Suede / Mesh</p>
+          <p class="mt-0 mb-3">Outsole: Rubber</p>
+          <h4>Size UK:</h4>
+          <div class="size-buttons">
+            <input type="radio" class="btn-check" name="size" id="S" value="S" autocomplete="off">
+            <label class="btn btn-light size-btn" for="size4"><strong>S</strong></label>
+          
+            <input type="radio" class="btn-check" name="size" id="M" value="M" autocomplete="off">
+            <label class="btn btn-light size-btn" for="size5"><strong>M</strong></label>
+          
+            <input type="radio" class="btn-check" name="size" id="L" value="L" autocomplete="off">
+            <label class="btn btn-light size-btn" for="size8"><strong>L</strong></label>
+          
+            <input type="radio" class="btn-check" name="size" id="XL" value="XL" autocomplete="off">
+            <label class="btn btn-light size-btn" for="size7"><strong>XL</strong></label>
+          </div>
+
+          <div class="button-container d-flex flex-column mt-3">
+            <button type="button" class="btn btn-primary btn-block ">
+              <i class="fas fa-shopping-cart mr-2"></i>
+              Thêm vào giỏ hàng
+            </button>
+          
+            <div class="d-flex justify-content-between mt-3">
+              <button type="button" class="btn btn-outline-secondary flex-fill mr-2">
+                <i class="fas fa-heart mr-1"></i>
+                Like
+              </button>
+          
+              <button type="button" class="btn btn-outline-secondary flex-fill">
+                <i class="fas fa-share-alt mr-1"></i>
+                Chia sẻ link
+              </button>
+            </div>
+          </div>
+          
+          <div class="link-list mt-5">
+            <a href="" class="link"><h4>Hướng dẫn chọn Size</h4></a>
+            <a href="" class="link"><h4>Chính sách đổi trả</h4></a>
+            <a href="" class="link"><h4>Các phương thức thanh toán</h4></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container my-5">
+      <div class="row text-center">
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="card-body">
+              <div class="d-flex align-items-center mb-3">
+                <i class="fas fa-exchange-alt fa-2x me-3"></i>
+                <h5 class="card-title mb-0">Đổi trả trong vòng 7 ngày</h5>
+              </div>
+              <p class="card-text">Nếu bạn không hài lòng với sản phẩm, hãy yên tâm vì chúng tôi chấp nhận đổi trả trong vòng 7 ngày kể từ ngày nhận hàng. Hãy liên hệ với chúng tôi để được hỗ trợ tốt nhất.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="card-body">
+              <div class="d-flex align-items-center mb-3">
+                <i class="fas fa-shipping-fast fa-2x me-3"></i>
+                <h5 class="card-title mb-0">Giao hàng trong vòng 4 ngày</h5>
+              </div>
+              <p class="card-text">Chúng tôi cam kết giao hàng nhanh chóng trong vòng 4 ngày làm việc kể từ khi xác nhận đơn hàng. Hãy yên tâm đặt hàng và chờ đón sản phẩm của bạn một cách nhanh chóng.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card ">
+            <div class="card-body">
+              <div class="d-flex align-items-center mb-3">
+                <i class="fas fa-award fa-2x me-3"></i>
+                <h5 class="card-title mb-0 ">Hàng chính hãng - Đền bù 500%</h5>
+              </div>
+              <p class="card-text">Tất cả sản phẩm của chúng tôi đều là hàng chính hãng, được nhập khẩu và phân phối bởi các nhà cung cấp uy tín. Nếu phát hiện hàng giả, chúng tôi cam kết đền bù 500% giá trị đơn hàng.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="container-fluid banner mt-5">
+
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+   <!-- Indicators/dots -->
+           <div class="carousel-indicators">
+             <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+             <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+             <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+           </div>
+           <!-- The slideshow/carousel -->
+           <div class="carousel-inner">
+             <div class="carousel-item active">
+               <img src="image/baner1.png" alt="1" class="d-block w-100">
+             </div>
+             <div class="carousel-item">
+               <img src="image/banner2.png" alt="2" class="d-block w-100">
+             </div>
+             <div class="carousel-item">
+               <img src="image/banner3.png" alt="3" class="d-block w-100">
+             </div>
+           </div>
+           <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+             <span class="carousel-control-prev-icon"></span>
+           </button>
+           <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+             <span class="carousel-control-next-icon"></span>
+           </button>
+         
+         </div>
+    </div>
+    <footer class="bg-light text-dark pt-5 pb-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h5>About</h5>
+              <p>Chúng tôi là một công ty chuyên cung cấp các sản phẩm chất lượng cao với giá cả hợp lý.</p>
+            </div>
+            <div class="col-md-4">
+              <h5>Liên hệ</h5>
+              <ul class="list-unstyled">
+                <li><i class="fas fa-map-marker-alt"></i> 123 Đường ABC, Quận XYZ, TP. HCM</li>
+                <li><i class="fas fa-phone"></i> (123) 456-7890</li>
+                <li><i class="fas fa-envelope"></i> info@example.com</li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <h5>Theo dõi chúng tôi</h5>
+              <ul class="list-inline">
+                <li class="list-inline-item"><a href="#" class="text-dark"><i class="fab fa-facebook"></i></a></li>
+                <li class="list-inline-item"><a href="#" class="text-dark"><i class="fab fa-twitter"></i></a></li>
+                <li class="list-inline-item"><a href="#" class="text-dark"><i class="fab fa-instagram"></i></a></li>
+                <li class="list-inline-item"><a href="#" class="text-dark"><i class="fab fa-youtube"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <hr>
+          <div class="text-center">
+            <p>&copy; 2024 tandat.</p>
+          </div>
+        </div>
+      </footer>
+
+
+
+    <script src="detailApp.js"></script>
+</body>
+</html>

@@ -1,0 +1,154 @@
+
+container-fluid{
+    max-width: 100%;
+}
+.logo{
+    width: 60px;
+}
+.nav-link{
+    padding: 0;
+    
+}
+.nav-link:hover{
+    color: #f1cb51;
+}
+.anhbia{
+    object-fit: cover;
+    width: 100%;
+}
+.app{
+    margin-top: 60px;
+}
+.card{
+    padding: 0;
+    border: none;
+    box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    
+}
+.custombtn{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: black;
+    
+}
+.card-img-top{
+    object-fit: cover;
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+a:hover{
+    color: #38456c;
+}
+.btn-dark:hover{
+    color: black;
+    background-color:#f1cb51 ;
+    border-color: #f1cb51 ;
+}
+
+.pg2{
+    display: none;
+}
+
+.new{
+    padding: 0;
+    margin-top: 30px;
+    overflow: hidden;
+    
+    img{
+        width: 100%;
+    }
+    
+}
+
+.circle-button {
+    position: absolute;
+    bottom: -40%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #38456c;
+    font-size: 60px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  .circle-button {
+    transition: transform 2s; 
+  }
+  
+  .circle-button.animate {
+    transform: translate(-50%, 100vh);
+  }
+  
+  .new2 {
+    transition: top 1s; 
+    
+  }
+  
+  .new2.animate {
+    top: 60% !important;
+  }
+  
+  .beforeH1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    transition: transform 1s;
+    font-size: 40px;
+  }
+  .afterH1{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -100vh);
+    color: white;
+    transition: transform 1s;
+    font-size: 40px;
+  }
+  .afterH2{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -100vh);
+    color: white;
+    transition: transform 1s;
+  }
+  .reserveBtn{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -100vh);
+    transition: transform 1s;
+    font-size: 30px;
+    color: #38456c;
+  }
+
+  
+  .beforeH1.animate {
+    transform: translate(-50%, -100vh);
+  }
+  .afterH1.animate{
+    transform: translate(-50%, -50%);
+  }
+  .afterH2.animate{
+    transform: translate(-50%, -50%);
+  }
+  .reserveBtn.animate{
+    transform: translate(-50%, -50%);
+  }
+
